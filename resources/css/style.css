@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+.header {
+  display: flex;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  justify-content: space-between;
+  height: 60px;
+  padding: 10px 0;
+  border-bottom: 1px solid black;
+  z-index: 3;
+  background-color: white;
+}
+.header ul {
+  right: 0;
+  padding: 20px 20px;
+  align-self: flex-end;
+}
+
+.header h1 {
+  padding-left: 85px;
+  padding-right: 350px;
+  padding-top: 20px;
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  background-image: url("../images/img-myt-logo.jpg");
+  background-repeat: no-repeat;
+  margin-left: 30px;
+
+}
+.header li {
+
+  display: inline-block;
+  text-decoration: underline;
+  padding-left: 10px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+.main {
+
+  display: inline-flex;
+  top: 130px;
+  position: relative;
+  z-index: 1;
+  justify-content: space-around;
+  width: 1300px;
+  margin-bottom: -250px;
+}
+.leftcol {
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+  position: fl
+  height: 100%;
+}
+.art1 {
+
+}
+.art1 h3 {
+
+  margin-bottom: 15px;
+  background-image: url("../images/img-story-main (1).png");
+  background-position: center;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+.art1 p{
+  margin-bottom: 20px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.art2 {
+  padding-right: 30px;
+}
+.art2 p {
+  margin: 20px 0px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.art2 h3 {
+  margin-top: 20px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 22px;
+  color: black;
+}
+.art2 span {
+
+  width: 100%;
+  display: block;
+  background-image: url("../images/img-story-2.png");
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+
+}
+.art3 {
+
+}
+.art3 h3 {
+  padding: 20px 0;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 22px;
+  color: black;
+}
+.art3 p {
+  padding-bottom: 20px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.art3 span {
+  display: block;
+
+  background-image: url("../images/img-story-3.png");
+  height: 300px;
+  width: 100%;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+.middlecol {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+
+  height: 1500px;
+}
+
+.art4 {
+  margin-top: 30px;
+}
+.art4 h3 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+}
+.art4 p {
+  margin-top: 20px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.art5 h3 {
+  background-image: url("../images/img-story-1.png");
+  height: 300px;
+  background-position: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+.art5 p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  margin-top: 20px;
+}
+
+.lastcol {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+}
+.bitelist li {
+  list-style: none;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 10px 10px;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+.bitelist h3 {
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.substories {
+  display: flex;
+  padding-right: 30px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 400px;
+  justify-content: center;
+}
+.item1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.item1 ul {
+  padding-left: 50px;
+}
+.item1 li {
+  display: inline-block;
+  text-decoration: underline;
+  padding-left: 10px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+.item1 h3 {
+  border-right: 1px solid white;
+  padding-right: 30px;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+.item2 {
+  align-self: center;
+}
