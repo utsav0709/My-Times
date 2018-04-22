@@ -212,6 +212,7 @@
   font-size: 12px;
   height: 400px;
   justify-content: center;
+  width: 1400px;
 }
 .item1 {
   display: flex;
